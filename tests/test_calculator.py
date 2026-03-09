@@ -15,4 +15,3 @@ def test_multiply():
     response = client.get("/multiply?a=2&b=3")
     assert response.status_code == 200
     assert response.json()["result"] == 6
-
